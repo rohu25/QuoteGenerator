@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(orange,white,green);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 500px;
+    background-color: lightseagreen;
+    border: 3px solid aqua;
+    border-radius: 30px;
+}
+
+.container:hover {
+    background-color: rgba(32, 178, 171, 0.831);
+}
+
+.but {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: aquamarine;
+}
+
+.but:hover {
+    background-color:aqua;
+}
+
+.quote_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
